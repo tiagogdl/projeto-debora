@@ -25,7 +25,7 @@
 #caixa2{
      position: absolute;
     top: 490px;
-    right: 30px;
+    left: 30px;
     width: 300px;
     border-radius: 15px;
     background-color: white; 
