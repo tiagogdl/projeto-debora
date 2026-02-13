@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Love';
+    src: url(fontes/love\ story\ ttf.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@media (min-width: 1400px) {
+    #caixa1{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white; 
+    padding: 10px;  
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+*{
+    margin: 7px;
+}
+
+#caixa2{
+     position: absolute;
+    top: 490px;
+    right: 30px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white; 
+    padding: 10px; 
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#caixa3{
+     position: absolute;
+    top: 860px;
+    right: 30px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white; 
+    padding: 10px; 
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border: 1px solid rgb(0, 0, 0);
+}
+}
+
+body{
+    background-color: #F2C4DE;
+    font-family: "Great Vibes", cursive;
+    background:#F2C4DE url(imagens/0W8A1836-2.jpg) center center / cover no-repeat fixed ;
+   
+    
+}
+
+header{
+    background-image: linear-gradient(to left, #314a67, white );
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.229);
+    min-width: 300px;
+    max-width: 500px;
+    text-align: justify;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+main{
+    background-color: white; 
+    padding: 10px; 
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border-radius: 8px 8px 8px 8px;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: justify;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.h1{
+  font-family: 'Love', serif;
+  margin: auto;
+  text-align: center;
+  font-size: 3.2em;
+}
+
+p{
+    text-indent: 20px;
+    margin: 0;
+}
+
+
+h2{
+    text-align: left;
+    margin: 0px;
+}
