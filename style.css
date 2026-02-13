@@ -22,10 +22,6 @@
     
 }
 
-*{
-    margin: 7px;
-}
-
 #caixa2{
      position: absolute;
     top: 490px;
@@ -51,6 +47,10 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
     border: 1px solid rgb(0, 0, 0);
 }
+}
+ 
+*{
+    margin: 0px;
 }
 
 body{
@@ -100,6 +100,9 @@ p{
 
 
 h2{
+    background-image: linear-gradient(to left, #314a67, white );
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px;
     text-align: left;
     margin: 0px;
 }
