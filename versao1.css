@@ -47,6 +47,28 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
     border: 1px solid rgb(0, 0, 0);
 }
+
+.imagens{
+    background-color: #67733D;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border: 1px solid rgb(0, 0, 0);
+    
+    
+}
+
+#imagem1 {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
 }
  
 *{
@@ -105,4 +127,21 @@ h2{
     border-radius: 15px;
     text-align: left;
     margin: 0px;
+}
+
+#imagem1{
+    border-radius: 15px;
+
+}
+.imagens{
+    background-color: #67733D;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.419);
+    border: 1px solid rgb(0, 0, 0);
+    
+    
 }
