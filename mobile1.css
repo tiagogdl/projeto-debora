@@ -47,7 +47,7 @@ h1{
 }
 
 #universo{
-    font-size: 10em;
+    font-size: 8em;
      text-shadow:
         0 0 5px #ff4fd8,
         0 0 15px #7E3CA3,
@@ -60,7 +60,7 @@ h1{
     text-shadow: 0px 0px 10px #7c4fc9 ;
 }
 
-#coracoes{
+.coracoes{
     text-align: center;
     font-size: 20px;
     text-shadow: 0px 0px 10px rgb(238, 148, 163);
@@ -80,8 +80,50 @@ h1{
 }
 
 /* Página 2*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
 
 header.pagina2  h1 {
     font-family: 'beauty', cursive;
-    font-size: 4em;
+    font-size: 6em;
+
+    text-shadow:
+        0 0 5px #ff4fd8,
+        0 0 15px #7E3CA3,
+        0 0 30px #32268d;
 }
+
+div#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 90vh;
+    place-items: center center;
+    place-content: space-evenly center;
+    margin-bottom: 30px;
+}
+
+section.sectiontext-pagina2 {
+    display: block;
+    max-width: 400px;
+    background-color: #e9c6eeaf;
+
+    border-radius: 30px;
+    padding: 10px;
+}
+
+section.sectiontext-pagina2 > h2 {
+    font-family: 'beauty', cursive;
+    font-size: 2.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1.5px;
+    color: #a6228a;
+}
+
