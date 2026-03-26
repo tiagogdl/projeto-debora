@@ -92,7 +92,7 @@ header{
 
 header.pagina2  h1 {
     font-family: 'beauty', cursive;
-    font-size: 6em;
+    font-size: 4.5em;
 
     text-shadow:
         0 0 5px #ff4fd8,
@@ -106,17 +106,38 @@ div#grid {
     height: 90vh;
     place-items: center center;
     place-content: space-evenly center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
 
 section.sectiontext-pagina2 {
     display: block;
+    position: relative;
     max-width: 400px;
-    background-color: #e9c6eeaf;
+    background-color: #f3a7fc8e;
 
+    box-shadow: 
+        0 0 20px rgba(243, 141, 243, 0.815),
+        0 0 40px rgba(250, 96, 250, 0.76),
+        0 0 60px rgba(245, 42, 167, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    
     border-radius: 30px;
     padding: 10px;
+    margin-top: 20px;
 }
+
+section.sectiontext-pagina2::before {
+    content: "";
+    position: absolute;
+    
+    inset: 7px;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.452), rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0));
+    filter: blur(5px);
+    z-index: -1;
+    border-radius: 30px;
+}
+
 
 section.sectiontext-pagina2 > h2 {
     font-family: 'beauty', cursive;
@@ -125,5 +146,13 @@ section.sectiontext-pagina2 > h2 {
     padding-right: 20px;
     letter-spacing: 1.5px;
     color: #a6228a;
+    text-align: center;
+}
+
+section.sectiontext-pagina2 > p {
+    color: rgb(29, 29, 29);
+    width: 90%;
+    text-align: justify;
+    margin: auto;
 }
 
