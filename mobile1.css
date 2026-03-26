@@ -15,6 +15,7 @@ body{
     padding: 0px;
     margin: 0px;
     height: 100vh;
+    width: 100vw;
     background-image: url('imagens/ChatGPT\ Image\ 17_02_2026\,\ 21_50_11.png');
     background-color: black;
     background-size: cover;
@@ -78,3 +79,9 @@ h1{
     box-shadow: 0px 0px 15px rgb(238, 148, 163);
 }
 
+/* Página 2*/
+
+header.pagina2  h1 {
+    font-family: 'beauty', cursive;
+    font-size: 4em;
+}
