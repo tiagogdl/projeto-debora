@@ -65,7 +65,7 @@ header.pagina2  h1 {
         0 0 15px #7E3CA3,
         0 0 30px #32268d;
 
-    flex: 1 1 300px;
+    width: 100%;
         
 }
 
@@ -128,7 +128,7 @@ section.sectiontext-pagina2 {
     
     border-radius: 30px;
     padding: 10px;
-    margin-top: 20px;
+    margin: auto;
 }
 
 section.sectiontext-pagina2::before {
