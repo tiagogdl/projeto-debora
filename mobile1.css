@@ -52,16 +52,19 @@ main#background {
 
 header{
     display: flex;
+    
 }
 
 header.pagina2  h1 {
+    
     font-family: 'beauty', cursive;
     font-size: 4.5em;
-    flex: auto;
     text-shadow:
         0 0 5px #ff4fd8,
         0 0 15px #7E3CA3,
         0 0 30px #32268d;
+
+    flex: 1 1 300px;
         
 }
 
@@ -112,6 +115,7 @@ section.sectiontext-pagina2 {
     display: block;
     position: relative;
     max-width: 400px;
+    width: 90%;
     background-color: #f3a7fc8e;
     flex: auto;
 
