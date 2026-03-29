@@ -57,6 +57,8 @@ header{
 }
 
 header.pagina2  h1 {
+    position: absolute;
+    left: 50%;
     
     font-family: 'beauty', cursive;
     font-size: 4.5em;
@@ -66,7 +68,7 @@ header.pagina2  h1 {
         0 0 30px #32268d;
 
     width: 100%;
-    margin: auto;
+    
         
 }
 
