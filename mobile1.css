@@ -57,9 +57,7 @@ header{
 }
 
 header.pagina2  h1 {
-    position: absolute;
-    left: 50%;
-    
+    text-align: center;
     font-family: 'beauty', cursive;
     font-size: 4.5em;
     text-shadow:
