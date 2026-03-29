@@ -57,7 +57,7 @@ header{
 header.pagina2  h1 {
     font-family: 'beauty', cursive;
     font-size: 4.5em;
-
+    flex: auto;
     text-shadow:
         0 0 5px #ff4fd8,
         0 0 15px #7E3CA3,
@@ -80,6 +80,7 @@ section.sectionimg-pagina2 {
     justify-content: space-around;
     align-items: center;
     gap: 80px;
+    flex: auto;
 }
 
 div.imagensamor2{
@@ -111,6 +112,7 @@ section.sectiontext-pagina2 {
     position: relative;
     max-width: 400px;
     background-color: #f3a7fc8e;
+    flex: auto;
 
     box-shadow: 
         0 0 20px rgba(243, 141, 243, 0.815),
