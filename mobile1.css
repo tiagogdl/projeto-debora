@@ -170,7 +170,7 @@ section#pagina-3{
     gap: 5px;
 }
 
-div#fotos {
+div.fotos {
     margin-top: 30px;
     height: 200px;
     display: flex;
@@ -178,7 +178,7 @@ div#fotos {
 
 }
 
-div#fotos > img {
+div.fotos > img {
     width: 90%;
     height: 170px;
     object-fit: cover;
