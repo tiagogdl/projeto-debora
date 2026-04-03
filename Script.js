@@ -5,6 +5,8 @@ function abrir(img) {
 
     crescer.style.display = 'flex'
     imagem.src = img.src
+
+    var texto = document.querySelector('p.text-none')
 }
 
 function fechar(img) {
